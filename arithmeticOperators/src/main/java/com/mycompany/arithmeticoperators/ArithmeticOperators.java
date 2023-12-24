@@ -30,6 +30,7 @@ public class ArithmeticOperators {
         System.out.println(15.3f/(float)3);
         
         float num = 5.3f;
-        System.out.println("num " + (int)num);
+        System.out.println("num " + (int)num); // converstion
+        
     }
 }
