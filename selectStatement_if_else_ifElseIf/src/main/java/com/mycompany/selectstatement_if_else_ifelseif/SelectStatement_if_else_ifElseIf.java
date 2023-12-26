@@ -105,7 +105,7 @@ public class SelectStatement_if_else_ifElseIf {
         System.out.println(res);
         
 //        instanceof
-        System.out.println(res instanceof String);
+        System.out.println(res instanceof String); 
                 
     }
 }

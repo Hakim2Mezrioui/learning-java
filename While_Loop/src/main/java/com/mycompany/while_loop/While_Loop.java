@@ -70,7 +70,7 @@ public class While_Loop {
 //        
 //        System.out.println("count = " + count); // count = 6 au final
 
-//        -----------------------------------------
+//        ----------------------------------------- 
 
         // flag controlled while loop
         
