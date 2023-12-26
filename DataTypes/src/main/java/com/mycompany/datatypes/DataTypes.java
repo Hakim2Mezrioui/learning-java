@@ -40,5 +40,7 @@ public class DataTypes {
         
         String myName = "mezrioui hakim";
         System.out.println(myName);
+        
+        System.out.println(Long.MIN_VALUE);
     }
 }
