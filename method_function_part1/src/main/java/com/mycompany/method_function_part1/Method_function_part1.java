@@ -24,7 +24,7 @@ public class Method_function_part1 {
     
     static void sumTowNumbers2(int n1, int n2) {
         if (n1 == 0 && n2 == 0) 
-            return;
+            return; // the method that can break bloc of function
         System.out.println("sum = " + (n1 + n2));
     }
 
