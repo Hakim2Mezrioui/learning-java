@@ -23,6 +23,7 @@ public class BuiltIn_method_function {
     */
     
     /*
+    -- math methodes --
     static double	abs(double a)
     static float	abs(float a)
     static int          abs(int a)
