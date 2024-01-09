@@ -4,6 +4,8 @@
 
 package com.mycompany._one_dimensional_arrays_1d_array;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Mezrioui_Hakim
@@ -15,6 +17,7 @@ public class App {
     */
     public static void main(String[] args) {
         int []n = new int[5]; // or int n[] = new int[5];
+        // int n[] = new int[5.5]; error syntax
         n[0] = 15;
         n[1] = 33;
         n[2] = 52;
@@ -56,5 +59,20 @@ public class App {
         for (String name:names) {
             System.out.println(name);
         }
+        
+        Scanner in = new Scanner(System.in);
+        System.out.print("Entre a number of numbers: ");
+        int size = in.nextInt();
+        int []autoSize = new int[size];
+        
+        for(int i = 0; i <= size - 1; i++) {
+            System.out.println("enter number #" + (i+1));
+            autoSize[i] = in.nextInt();
+        }
+        
+        for(int i:autoSize) {
+            System.out.print(i + ", ");
+        }
+        
     }
 }
